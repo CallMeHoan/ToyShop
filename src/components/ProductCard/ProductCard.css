@@ -1,0 +1,76 @@
+.prod-img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.prod-name {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center !important;
+  margin-top: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.prod-name:hover {
+  color: #b24043;
+}
+.prod-price {
+  font-family: poppins;
+  font-size: 15px;
+  color: #b24043;
+  text-align: center;
+  font-weight: bolder;
+}
+.interact-btn {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: relative;
+  display: none;
+  transition: 0.3s;
+}
+.add {
+  padding: 10px;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.add:hover {
+  background-color: #3898af;
+  color: white;
+}
+.productCard:hover .product-detail {
+  display: none;
+}
+.productCard:hover .interact-btn {
+  display: flex;
+  margin-top: 25px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  font-family: poppin;
+  visibility: hidden;
+  width: 120px;
+  font-size: 10px;
+  background-color: black;
+  color: #f3f3f3;
+  text-align: center;
+  border-radius: 6px;
+  padding: 7px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

@@ -69,3 +69,19 @@
   background-image: url("http://fastortheme.com/toys/image/catalog/toys/logic-toys.png");
   background-color: #bcc81b;
 }
+.product-container {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-item {
+  padding: 50px 10px;
+  border: 2px solid #d6d6d3;
+  border-top: none;
+  transition: 0.3s;
+}
+.product-item:hover {
+  border: 2px solid #bcc81b;
+  border-top: none;
+}
