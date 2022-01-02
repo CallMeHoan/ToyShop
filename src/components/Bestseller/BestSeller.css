@@ -1,0 +1,32 @@
+.best-seller {
+  width: 100%;
+}
+.best-seller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-info {
+  margin-left: 20px;
+}
+.best-seller-img {
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+.product-name {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.product-name:hover {
+  color: #b94d51;
+}
+.product-price {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b24043;
+}
