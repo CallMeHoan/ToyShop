@@ -1,0 +1,71 @@
+.homepage-container {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.left-contain {
+  width: 25%;
+  padding: 2% 0;
+}
+.right-contain {
+  width: 75%;
+  padding: 2%;
+}
+.free-shipping {
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+  display: block;
+}
+.best-seller-items {
+  border: 2px solid #7b8817;
+  width: 70%;
+  margin: auto;
+}
+.bs-item {
+  padding: 20px;
+  border-top: 1px solid #cacaca;
+}
+.best-seller-heading {
+  color: #7b8817;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.top-img .top-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.more-categories {
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 110px;
+  color: white;
+  font-size: 35px;
+  padding: 30px 30px 80px 80px;
+}
+.child-1 {
+  background-image: url("http://fastortheme.com/toys/image/catalog/toys/wooden-toys.png");
+  background-color: #78c9dd;
+}
+.child-2 {
+  background-image: url("http://fastortheme.com/toys/image/catalog/toys/stuffed-toys.png");
+  color: #b24043;
+  background-color: #fee4e3;
+}
+.child-3 {
+  background-image: url("http://fastortheme.com/toys/image/catalog/toys/logic-toys.png");
+  background-color: #bcc81b;
+}

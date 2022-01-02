@@ -1,5 +1,6 @@
 .best-seller {
   width: 100%;
+  display: block;
 }
 .best-seller-container {
   display: flex;
