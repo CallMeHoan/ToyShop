@@ -4,11 +4,103 @@
   background-color: white;
   height: auto;
   padding: 60px 45px;
+  border-top: 1px solid #b9b9b9;
 }
 .login-left {
-  width: 75%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
 }
 .login-right {
   width: 25%;
   float: right;
+}
+input {
+  width: 100%;
+}
+.new-customer {
+  width: 45%;
+}
+.returning-customer {
+  width: 45%;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h5 {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+p {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+.register-btn,
+.login-btn {
+  font-family: poppins;
+  font-weight: 800;
+  color: white;
+  padding: 7px 40px;
+  background-color: #3898af;
+  border-radius: 20px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+.register-btn:hover,
+.login-btn:hover {
+  opacity: 0.5;
+}
+.login-group {
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.forget-password {
+  font-family: poppins;
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.forget-password:hover {
+  color: #b24043;
+}
+input::placeholder,
+label {
+  font-family: poppins;
+  font-weight: 600;
+  color: black;
+  font-size: 13px;
+}
+.page-title {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.title {
+  font-size: 40px;
+  border-bottom: 3px solid #3898af;
+  margin: 0 560px;
+  margin-bottom: 15px;
+}
+.path {
+  font-family: poppins;
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.path:hover {
+  color: #b24043;
 }
