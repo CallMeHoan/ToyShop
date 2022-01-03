@@ -1,0 +1,14 @@
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: auto;
+  padding: 60px 45px;
+}
+.login-left {
+  width: 75%;
+}
+.login-right {
+  width: 25%;
+  float: right;
+}

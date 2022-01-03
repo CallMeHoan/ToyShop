@@ -1,0 +1,20 @@
+.account-sidebar {
+  padding: 10px 0;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 13px;
+  border: 2px solid #7b8817;
+}
+.account-item {
+  padding: 20px 30px 5px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.account-item p {
+  cursor: pointer;
+}
+.account-item p:hover {
+  color: #b24043;
+}
+.account-item.none {
+  border: none !important;
+}
