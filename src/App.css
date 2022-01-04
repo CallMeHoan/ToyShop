@@ -2,3 +2,33 @@ body {
   font-family: "Schoolbell", cursive;
   background-color: #f3f3f3;
 }
+.account-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: auto;
+  padding: 60px 45px;
+  border-top: 1px solid #b9b9b9;
+}
+.account-left {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.account-right {
+  width: 25%;
+  float: right;
+}
+.btn {
+  font-family: poppins;
+  font-weight: 800;
+  color: white;
+  padding: 7px 40px;
+  background-color: #3898af;
+  border-radius: 20px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+.btn:hover {
+  opacity: 0.5;
+}

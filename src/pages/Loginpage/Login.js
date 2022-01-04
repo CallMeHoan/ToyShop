@@ -19,8 +19,8 @@ export const Login = () => {
         <ArrowForwardIosIcon fontSize="13px" />
         <span className="path"> Login</span>
       </div>
-      <div className="login-container">
-        <div className="login-left">
+      <div className="account-container">
+        <div className="account-left">
           <div className="new-customer">
             <h2>New Customer</h2>
             <h5>Register Account</h5>
@@ -29,7 +29,7 @@ export const Login = () => {
               date on an order's status, and keep track of the orders you have
               previously made.
             </p>
-            <button className="register-btn">Continue</button>
+            <button className="btn">Continue</button>
           </div>
           <div className="returning-customer">
             <h2>Returning Customer</h2>
@@ -39,10 +39,10 @@ export const Login = () => {
             <label>Password</label>
             <input className="login-group" placeholder="Password"></input>
             <p className="forget-password">Forgotten Password</p>
-            <button className="login-btn">Login</button>
+            <button className="btn">Login</button>
           </div>
         </div>
-        <div className="login-right">
+        <div className="account-right">
           <AccountSidebar />
         </div>
       </div>
