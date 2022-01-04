@@ -1,0 +1,44 @@
+.pad {
+  margin: 0 600px;
+  margin-bottom: 15px;
+}
+.form {
+  margin-left: 50px;
+}
+.text {
+  width: 15%;
+}
+.input-group {
+  width: 100%;
+  margin-bottom: 0;
+}
+.input-area {
+  width: 100%;
+}
+text {
+  width: 50px;
+}
+option {
+  font-size: 13px;
+  color: black;
+}
+.radio-text {
+  margin-left: -20px;
+}
+.input-radio {
+  width: 10%;
+  margin-left: -10px;
+}
+.create-group {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 400px;
+}
+.checkbox {
+  width: 30px;
+}
+.agreement {
+  margin-bottom: 0;
+}

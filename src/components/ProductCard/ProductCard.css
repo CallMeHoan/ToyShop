@@ -46,7 +46,7 @@
 }
 .productCard:hover .interact-btn {
   display: flex;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 .tooltip {
   position: relative;

@@ -15,13 +15,13 @@ export const ProductCard = (props) => {
       </div>
       <div className="interact-btn">
         <div className="add tooltip">
-          <button className="btn">
+          <button className="btn-add">
             <ShoppingCartIcon />
           </button>
           <span class="tooltiptext">Add To Cart</span>
         </div>
         <div className="add tooltip">
-          <button className="btn">
+          <button className="btn-add">
             <FavoriteIcon />
           </button>
           <span class="tooltiptext">Add To Wishlist</span>
