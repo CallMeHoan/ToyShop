@@ -20,7 +20,7 @@ export const Login = () => {
         <span className="path"> Login</span>
       </div>
       <div className="account-container">
-        <div className="account-left">
+        <div className="account-left flex justify-between">
           <div className="new-customer">
             <h2>New Customer</h2>
             <h5>Register Account</h5>
@@ -35,9 +35,17 @@ export const Login = () => {
             <h2>Returning Customer</h2>
             <h5>I am returning customer</h5>
             <label>E-Mail Address</label>
-            <input className="login-group" placeholder="E-Mail Address"></input>
+            <input
+              className="input-group"
+              type="email"
+              placeholder="E-Mail Address"
+            />
             <label>Password</label>
-            <input className="login-group" placeholder="Password"></input>
+            <input
+              className="input-group"
+              type="password"
+              placeholder="Password"
+            />
             <p className="forget-password">Forgotten Password</p>
             <button className="btn">Login</button>
           </div>

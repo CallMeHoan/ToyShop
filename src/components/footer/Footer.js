@@ -26,9 +26,7 @@ export const Footer = () => {
               <p>Mon - Fri: 8:00 - 17:00</p>
             </div>
           </div>
-          <div className="contact-form">
-            <span>Contact form</span>
-          </div>
+          <button className="btn-red">Contact Form</button>
         </div>
         <div className="license">
           <p>Copyright © 2021, Your Store, All Rights Reserved.</p>
