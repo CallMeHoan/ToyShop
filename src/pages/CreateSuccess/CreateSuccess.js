@@ -1,49 +1,42 @@
 import React from "react";
 import "./CreateSuccess.css";
-import { Header } from "../../components/header/Header";
-import { Footer } from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
 import { AccountSidebar } from "../../components/AccountSidebar/AcccountSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export const CreateSuccess = () => {
   return (
     <div className="success">
-      <Header />
-      <Navbar />
       <div className="page-title">
-        <h1 className="title pad">Forgot Your Password</h1>
+        <h1 className="title pad">Your Account Has Been Created</h1>
         <span className="path">Home </span>
         <ArrowForwardIosIcon fontSize="13px" />
         <span className="path"> Account </span>
         <ArrowForwardIosIcon fontSize="13px" />
-        <span className="path"> Forgotten Password</span>
+        <span className="path"> success</span>
       </div>
       <div className="account-container">
         <div className="account-left">
           <p>
-            Enter the e-mail address associated with your account. Click submit
-            to have your password e-mailed to you.
+            Congratulations! Your new account has been successfully created!
           </p>
-          <h2>Your E-Mail Address</h2>
-          <label>
-            <span className="required">* </span>E-Mail Address
-          </label>
-          <input
-            className="input-group"
-            type="email"
-            placeholder="E-Mail Address"
-          />
-          <div className="flex justify-between">
-            <button className="btn-red">Back</button>
-            <button className="btn">Continue</button>
-          </div>
+          <p>
+            You can now take advantage of member privileges to enhance your
+            online shopping experience with us.
+          </p>
+          <p>
+            If you have ANY questions about the operation of this online shop,
+            please e-mail the store owner.
+          </p>
+          <p>
+            A confirmation has been sent to the provided e-mail address. If you
+            have not received it within the hour, please contact us.
+          </p>
+          <button className="btn float-right">Continue</button>
         </div>
         <div className="account-right">
           <AccountSidebar />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

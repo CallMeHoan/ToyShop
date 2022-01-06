@@ -1,16 +1,11 @@
 import React from "react";
 import "./Login.css";
-import { Header } from "../../components/header/Header";
-import { Footer } from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
 import { AccountSidebar } from "../../components/AccountSidebar/AcccountSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export const Login = () => {
   return (
     <div className="login">
-      <Header />
-      <Navbar />
       <div className="page-title">
         <h1 className="title">Account Login</h1>
         <span className="path">Home </span>
@@ -54,7 +49,6 @@ export const Login = () => {
           <AccountSidebar />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

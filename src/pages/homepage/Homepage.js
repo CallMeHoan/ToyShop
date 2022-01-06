@@ -1,7 +1,4 @@
 import React from "react";
-import { Header } from "../../components/header/Header";
-import { Footer } from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
 import { BestSeller } from "../../components/Bestseller/BestSeller";
 import { ProductCard } from "../../components/ProductCard/ProductCard";
 import "./Homepage.css";
@@ -9,8 +6,6 @@ import "./Homepage.css";
 export const Homepage = () => {
   return (
     <div className="homepage">
-      <Header />
-      <Navbar />
       <div className="homepage-container">
         <div className="left-contain">
           <h1 className="best-seller-heading">Best Seller</h1>
@@ -161,7 +156,8 @@ export const Homepage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
+
+export default Homepage;

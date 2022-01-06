@@ -1,16 +1,11 @@
 import React from "react";
 import "./Register.css";
-import { Header } from "../../components/header/Header";
-import { Footer } from "../../components/footer/Footer";
-import { Navbar } from "../../components/Navbar/Navbar";
 import { AccountSidebar } from "../../components/AccountSidebar/AcccountSidebar";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 export const Register = () => {
   return (
     <div className="register">
-      <Header />
-      <Navbar />
       <div className="page-title">
         <h1 className="title pad">Register</h1>
         <span className="path">Home </span>
@@ -259,7 +254,6 @@ export const Register = () => {
         <input className="checkbox" type="checkbox" />
         <button className="btn">Continue</button>
       </div>
-      <Footer />
     </div>
   );
 };
